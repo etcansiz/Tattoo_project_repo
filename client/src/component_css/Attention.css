@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+  }
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+  }
+  
+  .modal-content {
+    position: relative; 
+    background-color: #f0ededed;
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: 25%;
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+  }
+  
+  .attention_kapat{
+    position: absolute;
+    bottom: 10px; 
+    left: 42%; 
+    transform: translateX(-50%); 
+    padding: 10px 20px;
+  }
+  .attention_onayla{
+  
+    position: absolute; 
+    bottom: 10px; 
+    left: 57%; 
+    transform: translateX(-50%); 
+    padding: 10px 20px;
+  }
+  
+  .modal h1 {
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 100px;
+  }
+  .attention_genislik {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 90px;
+    margin-right: 110px;
+  }
+  .attention_uzunluk{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 90px;
+    margin-right: 200px;
+  }
+  
+  .attention_genislik_input{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 130px;
+    margin-right: 195px;
+    width: 75px;
+    height: 20px;
+  }
+  .attention_uzunluk_input{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 130px;
+    margin-right: 95px;
+    width: 75px;
+    height: 20px;
+  }
+  
+  .image-list img {
+  
+    margin-left: 3px;
+    width: 225px;
+    height: 275px;
+    
+  }
+  .image-list img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-list img:hover {
+    transform: scale(1.1);
+  }
+  
+  .image-list img:active {
+    transform: scale(0.9);
+  }
+  
+  

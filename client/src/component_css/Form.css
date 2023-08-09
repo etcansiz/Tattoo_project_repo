@@ -1,0 +1,14 @@
+
+.contain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.snack{
+  width: 500px;
+  
+}
+
+
